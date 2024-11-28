@@ -1,0 +1,25 @@
+.search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #00a000;
+  }
+  
